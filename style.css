@@ -21,3 +21,61 @@ img{
     width: 100%;
     margin: auto;
 }
+
+body{
+    background: #8ea812;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d920;
+    z-index: 200;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-link{
+    background: #00000040;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5rem;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover, #active, .nav-icons i{
+    background: #fff;
+    color: #000;
+}
+
+nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-icons i{
+    font-size: 20px;
+    padding: 10px;
+    background: #00000040;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5 ease-in-out;
+}
